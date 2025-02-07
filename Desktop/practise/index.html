@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Manager Salary</title>
+  </head>
+
+  <body>
+    <div class="grid">
+      <div id="Mangager-container">
+        <h2>Manager Tax Employee</h2>
+        <h3>Calculate Net_salary</h3>
+        <p>Under 250$ no Tax</p>
+        <p>From 250$ to 500$ Tax 5%</p>
+        <p>From 500$ to 1000$ Tax 10%</p>
+        <p>From 1000$ to 2000$ Tax 15%</p>
+        <p>From 2000$ up Tax 20%</p>
+        <p id="error-message" style="color: red"></p>
+        <input id="inputName" type="text" placeholder="Enter Name" />
+        <input id="inputPosition" type="text" placeholder="Enter Position" />
+        <input id="inputID" type="number" placeholder="Enter ID" />
+        <input id="inputSalary" type="number" placeholder="Enter Salary" />
+        <button id="button-enter">Enter</button>
+      </div>
+      <div class="display"><ul id="js-display"></ul></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+.grid {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+}
+p {
+  width: 200px;
+  min-width: 100px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+input {
+  display: flex;
+  padding: 10px;
+  border: none;
+  border: 0.5px solid blue;
+  border-radius: 5px;
+  margin-bottom: 10px;
+} 
+
+#button-enter {
+  background-color: rgb(208, 208, 208);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  transition: background-color 0.2s ease;
+}
+
+#button-enter:hover {
+  background-color: gray;
+  border: 0.5px solid blue;
+}
+
+#button-enter:active {
+  opacity: 0.8;
+}
+ul{
+  padding: 0px 10px;
+}
+ul li {
+  padding: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

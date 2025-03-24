@@ -5,7 +5,6 @@ This is a simple web application I created as my first project to practice my **
 - **Add new employees** to the system.
 - **Calculate salary**: Use the Salary Calculator to compute an employee's net salary after tax deductions.
 
-I wanted to make sure the app looks good on any screen, so I made it **responsive**. This way, it works well on both desktops and mobile devices.
 
 ## Technologies Used
 - **HTML**: Used to structure the pages of the application.
